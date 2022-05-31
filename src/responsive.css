@@ -1,0 +1,83 @@
+@media(max-width: 938px){
+    .email-input {
+        border-radius: 3px;
+        padding: 25px 20%;
+      }
+    
+      button {
+        padding: 20px 40%;
+        border-radius: 3px;
+        margin-top: 30px;
+      }
+}
+
+@media (max-width: 425px) {
+  .cabecalho {
+    padding: 15px;
+  }
+
+  .cabecalho .logo {
+    font-size: 0.9rem;
+  }
+  
+
+  .produto-container {
+    margin: 50px 15px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .img-produto {
+    width: 160px;
+    height: 150px;
+  }
+
+  .produto-container.ultimo-produto {
+    margin-right: 240px;
+  }
+
+  .nome-produto {
+    font-size: 0.9rem;
+  }
+
+  .preco-produto {
+    font-size: 0.9rem;
+  }
+
+  .rodape-principal {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .informacoes-rodape-principal {
+    margin-bottom: 60px;
+  }
+
+  .informacoes-rodape-principal ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .email-input {
+    border-radius: 3px;
+    padding: 25px 26%;
+  }
+
+  button {
+    padding: 20px 40%;
+    border-radius: 3px;
+    margin-top: 30px;
+  }
+
+  .pagamento {
+    padding: 40px 0px;
+    margin-right: 20px;
+  }
+
+  .fa-brands {
+    margin: 0px 5px;
+    font-size: 3rem;
+  }
+}

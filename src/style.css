@@ -1,0 +1,188 @@
+:root {
+  --Verde: #5ca720;
+  --preto: #161616;
+  --cinza: #F9F9F9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: "Lato", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
+
+body {
+  max-width: 1440px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 15px 70px;
+}
+
+.cabecalho .logo {
+  display: flex;
+  align-items: center;
+  font-family: "Cabin";
+  font-size: 1.2rem;
+}
+
+
+.menu-header nav ul li{
+  list-style-type: none;
+  display: inline;
+  color: var(--Verde);
+  font-size: 1.2rem;
+}
+
+nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  margin: 0px 10px;
+  color: var(--Verde);
+  font-size: 1.2rem;
+}
+
+
+.banner {
+  width: 100%;
+}
+
+.foto-banner {
+  width: 100%;
+}
+
+.informacao-sessao {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 40px;
+}
+
+.informacao-sessao h3 {
+  font-weight: lighter;
+}
+
+.produtos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 150px;
+}
+
+.produto-container {
+  margin: 50px 0px;
+  width: 303px;
+  height: 303px;
+}
+
+.img-produto {
+  width: 100%;
+  height: 100%;
+}
+
+.nome-produto {
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.nome-produto a{
+  text-decoration: none;
+  color: black;
+}
+
+.nome-produto a:hover{
+  color: var(--Verde);
+  transition: 0.5s;
+}
+
+.preco-produto {
+  font-weight: 700;
+}
+
+.verde {
+  color: var(--Verde);
+  font-size: 1.4rem;
+}
+
+footer{
+  background-color: var(--cinza);
+}
+
+.rodape-principal{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.informacoes-rodape-principal ul li{
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover{
+  color: var(--Verde);
+  transition: 0.5s;
+}
+
+.email h2{
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.email-input{
+  padding: 12px 90px;
+  border: #868686;
+  border-radius: 5px 0px 0px 5px;
+}
+
+button{
+  padding: 8px 40px;
+  border: none;
+  background: #5CA720;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.sub-rodape{
+  border-top: 0.2px solid #A5A1A1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rede-social,
+.pagamento{
+  margin-top: 50px;
+}
+
+.rede-social{
+  font-size: 2rem;
+  padding: 40px;
+  color: var(--Verde);
+}
+
+.pagamento{
+  padding: 40px;
+}
+
+.fa-brands{
+  margin: 0px 5px;
+}
